@@ -7,12 +7,16 @@
             icon="edit"
             class="edit"
             />
+          </button>
+          <button class="editButton">
             <font-awesome-icon
             icon="trash"
             class="trash"
             @click="deleteTodo()"
             />
           </button>
+
+
       </div>
 </template>
 

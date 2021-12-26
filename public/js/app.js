@@ -15433,6 +15433,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: ['item'],
   methods: {
@@ -39127,7 +39131,14 @@ var render = function () {
               staticClass: "edit",
               attrs: { icon: "edit" },
             }),
-            _vm._v(" "),
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "button",
+          { staticClass: "editButton" },
+          [
             _c("font-awesome-icon", {
               staticClass: "trash",
               attrs: { icon: "trash" },
